@@ -5,7 +5,7 @@ const path = require('path');
 const multer = require('multer');
 
 const app = express();
-// app.use(bodyParser.urlencoded());
+
 
 var { graphqlHTTP } = require("express-graphql")
 
